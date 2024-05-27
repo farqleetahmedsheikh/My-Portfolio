@@ -1,0 +1,25 @@
+.nav-padding {
+  padding-left: 4%;
+}
+
+.card {
+  padding-top: 20px;
+}
+
+.pd {
+  padding-top: 20px;
+}
+
+.pd-50 {
+  padding-top: 10px;
+  padding-left: 25%;
+}
+
+.px-wide {
+  width: 300px;
+  height: 300px;
+}
+
+.form-control {
+  background-color: rgba(192, 192, 192, 0.2);
+}

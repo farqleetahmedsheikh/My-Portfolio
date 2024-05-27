@@ -1,0 +1,31 @@
+.card {
+  min-height: 650px;
+}
+
+.card > img {
+  max-height: 400px;
+  min-height: 400px;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .card {
+    min-height: 450px;
+  }
+  .card > img {
+    max-height: 200px;
+    min-height: 200px;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1100px) {
+  .card {
+    min-height: 450px;
+  }
+  .card > img {
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #001523;
+    color: white;
+}
+.welcome{
+    background-color: #002137;
+    display: flex;
+    justify-content: center;
+    height: 5.7rem;
+    font-weight: 700px;
+}
+
+.welcome h2{
+    display: inline;
+    font-size: 3rem;
+    align-self: center;
+}
+
+.sec1{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    display: flex;
+}
+
+h3{
+    text-decoration: underline;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+.sec1 p{
+    text-align: left;
+    letter-spacing: 0.10rem;
+    line-height: 2rem;
+} 
+
+.image{
+    height: 14rem;
+    width: 90rem;
+    background-size: cover;
+}
+
+.image2{
+    height: 14rem;
+    width: 60rem;
+    background-size: cover;
+}
+
+.image3{
+    height: 14rem;
+    width: 65rem;
+    background-size: cover;
+}
+
+.image4{
+    height: 14rem;
+    width: 120rem;
+    background-size: cover;
+}
+
+.donate-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+button{
+    height: 7rem;
+    width: 20rem;
+    border: 2px solid #001523;
+    border-radius: 50%;
+    font-size: 200%;
+    background-color: #002137;
+    color: white;
+
+}
+
+button:hover{
+    background-color: white;
+    color: #002137;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #002137;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.margin{
+    margin-top: 1rem;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@media (min-width : 300px) and (max-width : 500px){
+
+    .welcome{
+        background-color: #001523;
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+        font-weight: 700px;
+    }
+    
+    .welcome h2{
+        display: inline;
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    .image{
+        height: 20rem;
+        width: 70rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .image2{
+        height: 14rem;
+        width: 60rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .image3{
+        height: 14rem;
+        width: 65rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .image4{
+        height: 20rem;
+        width: 70rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .sec1 p{
+        text-align: left;
+        letter-spacing: 0.10rem;
+        line-height: 1rem;
+    } 
+
+    footer{
+        background-color: #002137;
+        height: 15rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenlys;
+    }
+
+
+}
+
+

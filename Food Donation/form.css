@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #001523;
+    color: white;
+}
+
+.message{
+    background-color: #002137;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    height: 100vh;
+    text-align: center;
+}
+
+.donation-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #002137;
+    height: 40rem;
+    width: 30rem;
+}
+
+input{
+    height: 2rem;
+    width: 20rem;
+}
+
+button{
+    height: 5rem;
+    width: 10rem;
+    border: #001a2c;
+    border-radius: 50%;
+    background-color: #001a2c;
+    color: white;
+    margin-top: 5rem;
+    font-size: larger;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: #002137;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #002137;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.text {
+  text-align: center;
+  width: 100%;
+}
+
+.form-floating > input {
+  display: block !important;
+  text-align: left;
+  width: 500px !important;
+}
+
+.form-floating > textarea {
+  width: 500px !important;
+  height: 200px !important;
+}
+
+@media (max-width: 576px) {
+  .form-floating > input {
+    width: 300px !important;
+  }
+
+  .form-floating > textarea {
+    width: 300px !important;
+    height: 170px !important;
+  }
+
+  .hero-text {
+    bottom: 10%;
+    right: 20%;
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+}

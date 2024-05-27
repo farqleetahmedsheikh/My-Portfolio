@@ -1,0 +1,57 @@
+.about-text {
+  font-size: 50px;
+  font-weight: 400;
+  padding-left: 3%;
+}
+
+.profile-pic {
+  width: 70%;
+  height: auto;
+  margin-left: 25%;
+}
+
+#autoType {
+  border-bottom: #fca311 solid thin;
+  color: #fca311;
+}
+
+#cursor {
+  color: black;
+  animation: blinker 300ms ease-in-out 0s infinite alternate-reverse;
+}
+
+#project-link {
+  transition: all ease-in-out .1s;
+  cursor: pointer;
+  color: #495057;
+}
+
+#project-link:hover {
+  color: #b12626bf;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 576px) {
+  .about-text {
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 5%;
+  }
+
+  .profile-pic {
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+  }
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
