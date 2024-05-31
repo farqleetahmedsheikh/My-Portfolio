@@ -51,29 +51,37 @@
 <!-- Hero Img Section  Ends Here -->
 
 <!-- Form Section Starts Here -->
-<!-- <div class="mt-5 form">
+<div class="mt-5 form">
   <h2 class="text">Feel Free to Contact Us.</h2>
-  <form class="w-100 form">
+  <form class="w-100 form was-validated" action="https://formspree.io/f/mbjnvdde" method="post"> 
     <div class="form-floating mb-3">
-      <input type="text" class="form-control" name="formId1" id="formId1" placeholder="Name" inputmode="text"
-        required />
-      <label for="formId1">Name</label>
+      <input type="text" class="form-control" name="Name" id="formId1" placeholder="Name" inputmode="text" required />
+      <label for="Name">Name</label>
+      <div class="invalid-feedback">
+        Please enter your name here.
+      </div>
     </div>
     <div class="form-floating mb-3">
-      <input type="email" class="form-control" name="formId2" id="formId2" placeholder="Email" inputmode="email"
+      <input type="email" class="form-control" name="Email" id="formId2" placeholder="Email" inputmode="email"
         required />
-      <label for="formId2">Email</label>
+      <label for="Email">Email</label>
+      <div class="invalid-feedback">
+        Please enter a valid email here.
+      </div>
     </div>
     <div class="form-floating mb-3">
-      <textarea type="text" class="form-control" name="formId3" id="formId3" placeholder="Message" inputmode="text"
+      <textarea type="text" class="form-control" name="Message" placeholder="Message" inputmode="text"
         required></textarea>
-      <label for="formId3">Message</label>
+      <label for="Message">Message</label>
+      <div class="invalid-feedback">
+        Please enter a message here.
+      </div>
     </div>
     <div class="text-center">
       <button class="btn btn-primary">Submit</button>
     </div>
   </form>
-</div> -->
+</div>
 <!-- Form Section Ends Here -->
 
 <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
@@ -119,6 +127,8 @@
   src='https://widgets.fiverr.com/api/v1/seller/farqleetahmed22?widget_id=b42499d5-72d4-40e7-aed0-ba9f8273c6b4'
   data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}'
   async='true' defer='true'></script>
+
+  <script src="script.js"> </script>
 </body>
 
 </html>
