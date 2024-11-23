@@ -1,4 +1,7 @@
+/** @format */
+
 const textShowBox = document.getElementById("autoType");
+
 
 const wordList = ["Student", "Programmer", "Front-End Dev", "Coder"];
 let wordIndex = 0;
@@ -33,29 +36,3 @@ setInterval(() => {
     wordListIndex = 0;
   }
 }, 200);
-
-
-// Form Validation
-
-(() => {
-  "use strict";
-
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  const forms = document.querySelectorAll(".needs-validation");
-
-  // Loop over them and prevent submission
-  Array.from(forms).forEach((form) => {
-    form.addEventListener(
-      "submit",
-      (event) => {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-
-        form.classList.add("was-validated");
-      },
-      false
-    );
-  });
-})();
